@@ -6,7 +6,9 @@ A program in Python3 which automatically segregates the downloads folder for eas
 
 ## Installation guide
 Make sure you have Git installed in your PC.
-```git clone https://github.com/polybit-tech/downloads-segregator downloads-segregator
+```
+git clone https://github.com/polybit-tech/downloads-segregator downloads-segregator
 cd downloads-segregator
 pip install -r requirements.txt
-python app.py```
+python app.py
+```
