@@ -12,6 +12,9 @@ music_ex = [".mp3", ".wav", ".aac", ".flac", ".ogg", ".wma"] # music extensions
 home = str(Path.home())
 downloads = home + '\\Downloads'
 
+start = ToastNotifier()
+start.show_toast("Segregation Started 👍", "Downloads Segregator is now running in the background.", duration=5)
+
 while True:
     print("Running segregator...")
     try:
@@ -75,7 +78,7 @@ while True:
 
     if (pics + docs + vids + mus + err) > 0:
         toast = ToastNotifier()
-        toast.show_toast(f"Total {pics + vids + docs + mus} Downloads Organized", "Files organized: \n"
+        toast.show_toast(f"Total {pics + vids + docs + mus} Downloads Organized ✨", "Files organized: \n"
         + ((str(pics) + " pictures\n") if pics > 0 else "")
         + ((str(vids) + " videos\n") if vids > 0 else "")
         + ((str(docs) + " documents\n") if docs > 0 else "")
