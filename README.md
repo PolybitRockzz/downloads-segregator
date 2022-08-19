@@ -23,9 +23,9 @@ python app.py
 ## Startup guide
 > This step will be automated in the future. Stay tuned :)
 
+Make sure you have Visual Studio or Visual Studio Code installed in your PC.
 Use the shortcut `Windows + R` to open Run dialog, and enter `shell:startup` to get startup folder.
-Create a shortcut of `downloader-segregator.bat` in the startup folder.
-To run the program minimized, right click on shortcut and go to `Properties > Shortcut > Run > Minimized`.
+Create a shortcut of `downloader-segregator.vbs` in the startup folder. This will automatically run the program in the background.
 
 ## Upcoming features
 * Add support for other file types
