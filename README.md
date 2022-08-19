@@ -29,4 +29,4 @@ To run the program minimized, right click on shortcut and go to `Properties > Sh
 ## Upcoming features
 * Add support for other file types
 * Automate initial startup setup
-* Add optional renaming of files based on date
+* Add optional renaming of files based on date and time
