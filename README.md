@@ -23,9 +23,7 @@ python app.py
 ## Startup guide
 > This step will be automated in the future. Stay tuned :)
 
-Use the shortcut `Windows + R` to open Run dialog, and enter `shell:startup` to get startup folder.
-Create a shortcut of `downloader-segregator.vbs` in the startup folder. This will automatically run the program in the background.
-If the program fails to run, you can specify the absolute filepath of `run.bat` in the `downloader-segregator.vbs` script.
+Use Task Scheduler to schedule your program to run on startup/login. Make sure you specify `downloads-segregation.vbs` file and start in the directory where you have installed the program.
 
 ## Upcoming features
 * Add support for other file types
