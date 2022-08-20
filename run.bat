@@ -1,1 +1,1 @@
-python D:\Python\Automation\downloads-segregator\app.py
+python app.py
