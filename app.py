@@ -37,8 +37,7 @@ while True:
     except FileExistsError:
         pass
 
-    files = [f for f in os.listdir(downloads) if os.path.isfile(
-        os.path.join(downloads, f))]
+    files = [f for f in os.listdir(downloads) if os.path.isfile(os.path.join(downloads, f))]
     pics, docs, vids, mus, err = 0, 0, 0, 0, 0
 
     for file in files:
@@ -78,7 +77,8 @@ while True:
 
     if (pics + docs + vids + mus + err) > 0:
         toast = ToastNotifier()
-        toast.show_toast(f"Total {pics + vids + docs + mus} Downloads Organized ✨", "Files organized: \n"
+        toast.show_toast(f"Total {pics + vids + docs + mus} Downloads Organized ✨",
+        "Files organized: \n"
         + ((str(pics) + " pictures\n") if pics > 0 else "")
         + ((str(vids) + " videos\n") if vids > 0 else "")
         + ((str(docs) + " documents\n") if docs > 0 else "")

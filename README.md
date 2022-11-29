@@ -14,7 +14,7 @@ Supported Music Files: `*.mp3`, `*.wav`, `*.aac`, `*.flac`, `*.ogg`, `*.wma`
 ## Installation guide
 Make sure you have Git installed in your PC.
 ```
-git clone https://github.com/polybit-tech/downloads-segregator downloads-segregator
+git clone https://github.com/PolybitRockzz/downloads-segregator.git
 cd downloads-segregator
 pip install -r requirements.txt
 python app.py
@@ -23,9 +23,9 @@ python app.py
 ## Startup guide
 > This step will be automated in the future. Stay tuned :)
 
-Use Task Scheduler to schedule your program to run on startup/login. Make sure you specify `downloads-segregation.vbs` file and start in the directory where you have installed the program.
+Use Task Scheduler in Windows to schedule your program to run on startup/login. Make sure you specify to run the python executable and add `app.py` file as a parameter, then start in the directory where you have installed the program.
 
 ## Upcoming features
-* Add support for other file types
-* Automate initial startup setup
-* Add optional renaming of files based on date and time
+- Add support for other file types
+- Automate initial startup setup
+- Add optional renaming of files based on date and time
